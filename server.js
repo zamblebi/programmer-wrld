@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const sequelize = require('./db.js')
+const sequelize = require('./config/db.js')
 
 
 app.get('/', (req,res)=> {
