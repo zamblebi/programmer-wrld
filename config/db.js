@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize')
 
-const sequelize = new Sequelize('progwrld-db', 'root','root', {
+const sequelize = new Sequelize('progwrld_db', 'root','root', {
     host: 'localhost',
     dialect: 'mysql',
 })
